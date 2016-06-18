@@ -1,4 +1,4 @@
-package io.otrl.library.utils
+package io.kyriakos.library.utils
 
 // TODO test this
 object ManifestUtils {
