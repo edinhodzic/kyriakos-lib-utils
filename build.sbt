@@ -1,5 +1,5 @@
-import sbt._
 import bintray.Keys._
+import sbt._
 
 organization := "io.kyriakos.library"
 
@@ -12,7 +12,7 @@ scalaVersion := "2.11.7"
 lazy val kyriakosLibUtils = project.in(file(".")).
   settings(bintrayPublishSettings: _*).
     settings(
-      sbtPlugin := true,
+      sbtPlugin := false,
       name := "kyriakos-lib-utils",
       licenses += ("MIT", url("https://opensource.org/licenses/MIT")),
       publishMavenStyle := false,
